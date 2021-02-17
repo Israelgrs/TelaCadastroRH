@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @cadastro.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @cadastro.address %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @cadastro.email %>
+</p>
+
+<p>
+  <strong>Telefone:</strong>
+  <%= @cadastro.telefone %>
+</p>
+
+<p>
+  <strong>Cargo:</strong>
+  <%= @cadastro.cargo %>
+</p>
+
+<p>
+  <strong>Pretencao salarial:</strong>
+  <%= @cadastro.pretencao_salarial %>
+</p>
+
+<%= link_to 'Edit', edit_cadastro_path(@cadastro) %> |
+<%= link_to 'Back', cadastros_path %>
